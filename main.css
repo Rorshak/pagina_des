@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+    color: #666;
+    background: #49beb7;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+ 
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+    font-weight: 300;
+    color: antiquewhite;
+}
+h2 {
+    font-size: 2em;
+    font-family: fantasy;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: left;
+    font-weight: 300;
+    color: rgb(95, 50, 50);
+}
+ 
+p {
+    margin: 0 0 1.5em 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+}
+ 
+img {
+	max-width: 100%;
+	height: auto;
+}
+#central {
+    background-color:#085f63;
+    width: 30%;
+    height: 10%;
+    margin-left: 35%;
+    margin-right: 40%;
+
+}
+#central_navbar {
+    background-color:#085f63;
+    width: 50%;
+    height: 10%;
+    margin-left: 25%;
+    margin-right: 20%;
+
+}
+#contenido {
+    background-color:#facf5a;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 30%;
+
+}
+
+#contenido_interno {
+    background-color:#f79c1d;
+    width: 100%;
+    height: auto;
+
+}
+#contenido_interno2 {
+    background-color:rgb(204, 0, 255);
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 30%;
+}
+table {
+border: 3px solid black;
+  border-collapse: collapse;
+background-color: #666;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: antiquewhite;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 40;
+    width: 40%;
+    background-color: #4CAF50;
+    height: 8%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
